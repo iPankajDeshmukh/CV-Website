@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1d1d31;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body .container{
+    background-color: #1a253f;
+    width: 40vw;
+    height: 20vw;
+    /* margin: auto auto; */
+}

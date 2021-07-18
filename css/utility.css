@@ -1,0 +1,27 @@
+.section-heading{
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 3rem;
+    text-shadow: 0 0 1px rgb(40, 54, 95, 0.1);
+    position: relative;
+}
+
+.section-heading:after{
+    content: '';
+    height: 3px;
+    width: 80px;
+    position: absolute;
+    top: 28px;
+    left: 0;
+    border: 1px dotted #f1646c;
+
+
+
+}
+section{
+    padding: 3rem;
+}
+main{
+    background-color: #1a253f;
+}
